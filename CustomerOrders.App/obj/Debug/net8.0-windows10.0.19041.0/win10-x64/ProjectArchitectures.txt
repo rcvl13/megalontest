@@ -1,0 +1,1 @@
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.App\CustomerOrders.App.csproj;x64

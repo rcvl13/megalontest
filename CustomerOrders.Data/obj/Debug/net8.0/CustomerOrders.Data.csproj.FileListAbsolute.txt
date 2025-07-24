@@ -1,0 +1,14 @@
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\bin\Debug\net8.0\CustomerOrders.Data.deps.json
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\bin\Debug\net8.0\CustomerOrders.Data.runtimeconfig.json
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\bin\Debug\net8.0\CustomerOrders.Data.dll
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\bin\Debug\net8.0\CustomerOrders.Data.pdb
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.csproj.AssemblyReference.cache
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.AssemblyInfoInputs.cache
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.AssemblyInfo.cs
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.dll
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\refint\CustomerOrders.Data.dll
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.pdb
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\CustomerOrders.Data.genruntimeconfig.cache
+C:\Users\Rohit C\OneDrive\Desktop\New folder\megaloncoding\MegalonCodingTest\CustomerOrders.Data\obj\Debug\net8.0\ref\CustomerOrders.Data.dll

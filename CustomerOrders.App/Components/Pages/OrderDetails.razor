@@ -1,0 +1,67 @@
+﻿@page "/orderdetails/{CustomerId:guid}"
+@using CustomerOrders.App.DTOs
+@using CustomerOrders.App.Services
+@inject CustomerApiService CustomerService
+@inject NavigationManager Navigation
+
+<PageTitle>Order Details</PageTitle>
+
+<h1>ORDER DETAILS for @customer?.FullName</h1>
+
+@if (customer == null)
+{
+    <p><em>Loading order details...</em></p>
+}
+else if (!customer.Orders.Any())
+{
+    <p><em>No orders found for this customer.</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in customer.Orders)
+            {
+                <tr>
+                    <td>@order.OrderID</td>
+                    <td>@order.ItemName</td>
+                    <td>INR @order.ItemPrice.ToString("F2")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<button class="btn btn-primary" @onclick="BackToCustomers">Back to Customers</button>
+
+@code {
+    [Parameter]
+    public Guid CustomerId { get; set; }
+
+    private CustomerDto? customer;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            customer = await CustomerService.GetCustomerByIdAsync(CustomerId);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching customer orders: {ex.Message}");
+            customer = null;
+        }
+    }
+
+    private void BackToCustomers()
+    {
+        Navigation.NavigateTo("/customerlist");
+    }
+}
